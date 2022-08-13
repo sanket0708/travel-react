@@ -4,7 +4,7 @@ import Gold from "../../assets/gold.png";
 
 function Search() {
   return (
-    <div className="search">
+    <div name="book" className="search">
       <div className="container">
         <div className="left">
           <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>
@@ -40,25 +40,25 @@ function Search() {
           </div>
           <form>
             <div className="input-wrap">
-                <label>Destinations</label>
-                <select>
-                    <option value='1'>Grande Antigua</option>
-                    <option value='1'>Emerald Bay</option>
-                    <option value='1'>Grenda</option>
-                    <option value='1'>Bora Bora</option>
-                    <option value='1'>Key West</option>
-                    <option value='1'>Barbados</option>
-                </select>
+              <label>Destinations</label>
+              <select>
+                <option value="1">Grande Antigua</option>
+                <option value="1">Emerald Bay</option>
+                <option value="1">Grenda</option>
+                <option value="1">Bora Bora</option>
+                <option value="1">Key West</option>
+                <option value="1">Barbados</option>
+              </select>
             </div>
             <div className="date">
-                <div className="input-wrap">
-                    <label>Check-In</label>
-                    <input type='date' />
-                </div>
-                <div className="input-wrap">
-                    <label>Check-Out</label>
-                    <input type='date' />
-                </div>
+              <div className="input-wrap">
+                <label>Check-In</label>
+                <input type="date" />
+              </div>
+              <div className="input-wrap">
+                <label>Check-Out</label>
+                <input type="date" />
+              </div>
             </div>
             <button>Rates & Availabilities</button>
           </form>
